@@ -1,6 +1,6 @@
 # Selenium-Automation-PHPTravels-Demo
 Agile-driven test automation suite for PHPTravels demo site using Selenium WebDriver with Python, PyTest, and Allure for reporting, managed via Scrum framework and tracked using Jira.
-![Last commit](https://img.shields.io/github/last-commit/startrug/selenium-python-framework?color=9cf&logo=git)
+
 ![GitHub top language](https://img.shields.io/github/languages/top/startrug/selenium-python-framework?color=blue)
 
 # Test Automation Project
