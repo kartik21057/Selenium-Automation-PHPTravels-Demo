@@ -26,6 +26,8 @@ Here you can find a short description of main directories and it's content
 - data-driven tests - in most tests the option of loading data from an xlsx file has been implemented
 - logger has been implemented in each step of test cases, e.g.
 ```
+
+
 @allure.step("Setting destination to '{1}'")
     def set_destination(self, destination):
         self.logger.info(f"Setting destination: {destination}")
@@ -39,6 +41,15 @@ Here you can find a short description of main directories and it's content
 def setup(request):
     driver = DriverFactory.get_driver("chrome")
 ```
+Agile Methodology
+This project followed the Agile methodology to deliver incremental and iterative improvements in the test automation suite. Each development cycle was focused on delivering specific test cases, ensuring constant feedback and adaptability.
+
+Scrum Framework
+We implemented the Scrum framework to manage the testing phases of this project. Each sprint focused on completing user stories related to different test scenarios (e.g., login, hotel search, flight search). Scrum ceremonies like daily stand-ups, sprint planning, and sprint retrospectives were conducted to improve team collaboration and process efficiency.
+
+Jira Integration
+Jira was used for project tracking, sprint management, and bug reporting. All tasks and user stories were tracked through Jira, enabling a clear view of progress and facilitating collaboration. Sprints, issues, and test case progress were logged and managed in Jira, ensuring transparency and easy monitoring of deliverables.
+
 
 
 ## Getting Started
